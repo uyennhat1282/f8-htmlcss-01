@@ -69,7 +69,7 @@ p{
 .hero-wrap{
     position: relative;
     background-color: #E6F0FF;
-    height: 100vh;
+    height: calc(100vh - 90px);
     display: flex;
     flex-direction: column;
 }
