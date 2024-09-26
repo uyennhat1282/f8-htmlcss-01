@@ -74,6 +74,7 @@ p{
     background-color: #E6F0FF;
     height: calc(100vh - 90px);
     display: flex;
+    justify-content: center;
     flex-direction: column;
 }
 .navbar{
@@ -112,9 +113,7 @@ p{
 opacity: 0.3;
 }
 /* hero */
-.hero{
-    margin-top: 130px;
-}
+
 .hero .info{
     width: 55.3%;
 }
