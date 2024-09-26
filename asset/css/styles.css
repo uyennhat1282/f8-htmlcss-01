@@ -164,11 +164,10 @@ line-height: 125%;
 }
 .client .logo{
     margin-top: 70px;
+    padding: 0 10px 0 15px;
 }
 .client .logo img{
     display: block;
-    margin-left: 10px;
-    margin-right: 10px;
 }
 /* guides */
 .guides{
