@@ -61,6 +61,8 @@ p{
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
+
+
 /* header */
 .fixed-header{
     background-color: #E6F0FF;
@@ -175,12 +177,20 @@ font-weight: 500;
 line-height: 125%;
 }
 .client .logo{
-    margin-top: 70px;
-    padding: 0 10px 0 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 85px;    
 }
-.client .logo img{
-    display: block;
+.client .logo a{
+    display: inline-block;
+    padding:32px 40px 27px 38px ;
+    border-radius: 12px;
 }
+.client .logo a:hover{
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
 /* guides */
 .guides{
     padding: 79px 378px;
@@ -585,6 +595,22 @@ line-height: 125%;
     align-items: center;
     justify-content: space-between;
 }
+.faico .social{
+    display: flex;
+    gap:16px;
+}
+.faico .social a{
+    width: 28px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.faico .social a:hover{
+    background: #ebebeb;
+}
+
+
 .footer .row2 .copyright{
     color: #C2C2C2;
     font-size: 1.4rem;
