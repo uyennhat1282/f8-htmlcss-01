@@ -603,9 +603,11 @@ line-height: 125%;
     width: 28px;
     height: 28px;
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
+.faico .social a img{
+   margin: auto;
+}
+
 .faico .social a:hover{
     background: #ebebeb;
 }
